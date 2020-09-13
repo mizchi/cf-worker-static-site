@@ -1,0 +1,10 @@
+name = "static-sample"
+type = "webpack"
+account_id = ""
+workers_dev = true
+webpack = "./edge/webpack.config.js"
+route = ""
+zone_id = ""
+[site]
+bucket = "./dist"
+entry-point = "./edge"

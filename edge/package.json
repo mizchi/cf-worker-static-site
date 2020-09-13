@@ -1,0 +1,16 @@
+{
+  "name": "edge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -p . -w",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.0.12"
+  }
+}
